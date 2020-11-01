@@ -1,6 +1,6 @@
 <?php
-
-class MyGreeter_Client_Test extends \PHPUnit_Framework_TestCase
+require_once "MyGreeter/Client.php";
+class Test extends \PHPUnit_Framework_TestCase
 {
     public function setUp()
     {
